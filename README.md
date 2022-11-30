@@ -23,18 +23,15 @@ To run the project locally on the system
 
 - Install dependencies
 
-```bash
+```
   pip install python-telegram-bot pillow PyPDF2 opencv-python
 ```
 This will Install the required dependencies
 
 
-
-## Deployment
-
 To deploy this project run the following command
 
-```bash
+```
   python note-taker.py
 ```
 
@@ -53,6 +50,16 @@ This software uses Python 3.7 and uses the following modules
     * PyPDF2
 
 
+## Usage
+
+* When you first run the program, it asks you for a ***Chat ID***. 
+
+* Once you enter the Chat ID then a screen with the Webcam broadcast will open. The user must press the ***'c' key*** to capture images of the board 'c' stands for Capture. 
+
+* Once the Lecture is done the user must press the ***'q' key*** to quit the Webcam broadcast screen.
+
+* Once the user presses the 'q' key the captured images will get converted into a PDF file and will be sent by the bot to the specified Chat ID.
+
 
 ## FAQ
 
@@ -64,7 +71,13 @@ The mandatory requirements to run this software effectively is as follows
     - Webcam or Camera
 - Telegram Account
 
-#### How do I create and deploy my own Telegram Bot?
+#### As a teacher how do I set up this software?
+
+ As a teacher, you need to first create a Telegram Bot. You can either create a group with all the students and add the bot to that group by giving the Chat ID of the group or you can get the individual Chat ID's of every student and send it individually.
+ 
+ Create a file named ***botcred.txt*** and save you bot credentials in it. it should be present in the same directory as the ***note-taker.py*** file.
 
  Refer this [link](https://sendpulse.com/knowledge-base/chatbot/telegram/create-telegram-chatbot) to create your own bot. 
- Then, create a file named ***botcred.txt*** and save you bot credentials in it. it should be present in the same directory as the ***note-taker.py*** file.
+
+ Refer this [link](https://www.alphr.com/find-chat-id-telegram/) to get the Chat ID
+
