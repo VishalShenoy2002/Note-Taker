@@ -9,7 +9,7 @@ To install Note-Taker with git please use the following command:
 ```
   git clone https://github.com/VishalShenoy2002/Note-Taker.git
 ```
-If you don't have git installed on your system, you can download the zip folder of this repository.
+If you don't have git installed on your system, you can download the zip folder of this repository by clicking on this [link](https://github.com/VishalShenoy2002/Note-Taker/archive/refs/heads/main.zip).
 
     
 ## Run Locally
